@@ -21,4 +21,6 @@ class Test(Student):
         return f"Name: {self.name}, Age: {self.age}, Address: {self.address}"
 
 test = Test("Hoa", 22, "654 Lac Long Quan")
+
+print(test.Getname())
 test.Print()
